@@ -78,7 +78,8 @@ def main():
 
     while True:
         program = get_running_program(PROGRAM_SCRIPTS.keys())
-        print("Detected program:", program)  # Debug
+        if program != last_program:
+            print("Detected program:", program)  # Debug
 
         if program != last_program:
             if current_process and current_process.poll() is None:
@@ -111,3 +112,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
