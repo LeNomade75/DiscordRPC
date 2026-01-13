@@ -52,6 +52,7 @@ print(r"""⡟⠀⠀⠀⠀⢻⣧⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀⣠⢔⡾⠛⠁⠀�
                                           (____/(__/    \____/(____)\_)__) \__/ \_)(_/\_/\_/(____/(____)        
        """) 
 PROGRAM_SCRIPTS = {
+    "UnrealEditor.exe": "UnrealEditor.py",
     "euphoria.exe": "euphoria.py",
     "devenv.exe": "visualstudio.py",
     "lenomduprogramedanslegestionnairedestaches.exe": "lenomducript.py",
@@ -113,5 +114,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
