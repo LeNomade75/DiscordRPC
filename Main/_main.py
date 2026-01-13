@@ -56,7 +56,7 @@ PROGRAM_SCRIPTS = {
     "euphoria.exe": "euphoria.py",
     "devenv.exe": "visualstudio.py",
     "lenomduprogramedanslegestionnairedestaches.exe": "lenomducript.py",
-    "chrome.exe": "deaddays.py"
+    ".exe": "deaddays.py"
 }
 
 current_process = None
@@ -114,6 +114,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
