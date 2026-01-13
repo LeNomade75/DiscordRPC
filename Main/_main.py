@@ -53,6 +53,7 @@ print(r"""⡟⠀⠀⠀⠀⢻⣧⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀⣠⢔⡾⠛⠁⠀�
        """) 
 PROGRAM_SCRIPTS = {
     "euphoria.exe": "euphoria.py",
+    "devenv.exe": "visualstudio.py",
     "lenomduprogramedanslegestionnairedestaches.exe": "lenomducript.py",
     "chrome.exe": "deaddays.py"
 }
@@ -112,4 +113,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
